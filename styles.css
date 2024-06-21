@@ -23,6 +23,19 @@ body{
     width: auto;
    
 }
+@media (width<=425px){
+    
+    .input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    
+}
 
 .head{
    
